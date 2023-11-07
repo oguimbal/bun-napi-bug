@@ -1,0 +1,18 @@
+{
+  "name": "napi-buffer-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Olivier Guimbal <olivier.guimbal@gadz.org>",
+  "license": "MIT",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.0.1"
+  },
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  }
+}
